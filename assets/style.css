@@ -9,6 +9,10 @@ body{
   opacity: 0.5;
 }
 
+.img-responsive,p{
+  display: inline-block;
+}
+
 .img-thumbnail:hover{
   opacity: 1.0;
   cursor: pointer;
@@ -20,4 +24,25 @@ body{
   text-align: center;
   padding: 15px;
   margin-top: 15px;
+}
+
+.panel-heading{
+  text-align: center;
+}
+
+.panel-heading,#footer,.caption,form{
+  font-family: 'Amatic SC', cursive;
+}
+
+.caption{
+  font-size: 20px;
+}
+
+.caption,.panel-heading,.input-group,.btn{
+  font-weight: bold;
+}
+
+textarea{
+  resize: none;
+  margin-bottom: 10px;
 }
