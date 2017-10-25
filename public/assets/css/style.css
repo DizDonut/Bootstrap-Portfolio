@@ -1,0 +1,78 @@
+body, html{
+  height: 100%;
+  background: url("../images/visa.jpg") no-repeat center center fixed;
+  background-size: cover;
+  background-color: rgba(255,255,255,0.6);
+  background-blend-mode: luminosity;
+  font-family: 'Cormorant Garamond', sans-serif;
+  font-weight: bolder;
+}
+
+/*.parallax {
+  height: 100%;
+  background: url("../images/visa.jpg") no-repeat center center fixed;
+  background-size: cover;
+  background-color: rgba(255,255,255,0.6);
+  background-blend-mode: luminosity;
+}*/
+
+.navbar-default {
+  background-color:transparent !important;
+  border-color:transparent;
+  background-image:none;
+  box-shadow:none;
+  position: relative;
+  top: 5%;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+  font-size: xx-large;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+  font-size: large;
+}
+
+.panel-default {
+  opacity: 0.50;
+  margin-top: 15%;
+}
+
+.media-cards {
+  position: fixed;
+  bottom: 0;
+  padding: 25px;
+}
+
+.img-thumbnail {
+  height: 200px;
+  width: 140px;
+  position: relative;
+  float: right;
+  top: -50px;
+  right: 15px;
+  border-radius: 150px;
+}
+
+#dock li img {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  -webkit-box-reflect: below 2px;
+	-webkit-gradient(linear, left top, left bottom, from(transparent),
+		    color-stop(0.7, transparent), to(rgba(255,255,255,.5))); /* reflection is supported by webkit only */
+  -webkit-transition: all 0.3s;
+  -webkit-transform-origin: 50% 100%;
+}
+#dock li:hover img {
+  -webkit-transform: scale(2);
+  margin: 0 2em;
+}
+
+#dock li:hover + li img,
+#dock li.prev img {
+  -webkit-transform: scale(1.5);
+  margin: 0 1.5em;
+}
