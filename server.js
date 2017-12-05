@@ -8,7 +8,6 @@ var app = express();
 // Make public a static dir
 app.use(express.static("public"));
 
-
 // Set handlebars
 var exphbs = require("express-handlebars");
 
