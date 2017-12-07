@@ -25,10 +25,12 @@ document.addEventListener('DOMContentLoaded',function(event){
                    "In June 2016 I started a journey.",
                    "A journey to transition my career into the beautiful world of development.",
                    "It hasn't been easy.",
-                   "2 bootcamps, several paperbacks, hours and hours of online tutorials.  Late nights, long weekends.  All while working.",
+                   "2 bootcamps, several paperbacks, hours and hours of online tutorials.  Late nights, long weekends.  All while working a full time job.",
                    "Did I mention we had our first son in March 2017 as well?  To say it's been stressful would be an understatment.",
-                   "Charlotte, NC.",
-                   "Cheers!"
+                   "But as anyone will tell you...anything easy isn't worth doing...or something like that.  You get what I'm saying.",
+                   "My development education is still a work in progress, but that education has yielded a passion I didn't know I had.",
+                   "Yeah, it hasn't been easy.  But I'm excited to see where this journey takes me.",
+                   "Thanks for taking the time to visit my page.  Use the navigation links below to get around.  Take a look at a sample of some of the apps I've built.  Have a glance at my resume. Or head to the connect section and connect with me on linkedIn or github.  Cheers!"
                  ];
 
   // type one text in the typwriter
