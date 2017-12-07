@@ -8,13 +8,17 @@ body, html{
   font-weight: bolder;
 }
 
-/*.parallax {
-  height: 100%;
-  background: url("../images/visa.jpg") no-repeat center center fixed;
-  background-size: cover;
-  background-color: rgba(255,255,255,0.6);
-  background-blend-mode: luminosity;
-}*/
+* {
+    color:#fff;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 1.45em;
+}
+
+h3 {
+  padding: 20px;
+  text-transform:lowercase;
+}
 
 .navbar-default {
   background-color:transparent !important;
@@ -62,10 +66,9 @@ button {
 .img-thumbnail {
   height: 200px;
   width: 140px;
-  position: fixed;
+  position: relative;
   float: right;
-  top: 5%;
-  right: 15px;
+  right: 3%;
   border-radius: 150px;
 }
 
@@ -135,6 +138,7 @@ button {
   background-color: rgba(0,0,0,0.75);
   padding: 4px 0;
   border-radius: 12px;
+  font-size: 18px;
 }
 #dock-container li:hover span {
   display: block;
