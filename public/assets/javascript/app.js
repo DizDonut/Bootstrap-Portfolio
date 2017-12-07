@@ -1,3 +1,4 @@
+
 function addPrevClass (e) {
   var target = e.target;
     if(target.getAttribute('src')) { // check if it is img
